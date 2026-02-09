@@ -1,0 +1,36 @@
+State,Total_Customers,Active_Customers,Churned_Customers,Churn_Rate
+Abia,18,12,6,33.33
+Abuja (FCT),17,11,6,35.29
+Adamawa,11,4,7,63.64
+Akwa Ibom,10,6,4,40.0
+Anambra,15,9,6,40.0
+Bauchi,20,17,3,15.0
+Bayelsa,10,8,2,20.0
+Benue,16,9,7,43.75
+Borno,18,16,2,11.11
+Cross River,14,11,3,21.43
+Delta,10,8,2,20.0
+Edo,16,10,6,37.5
+Ekiti,16,12,4,25.0
+Enugu,17,13,4,23.53
+Gombe,16,12,4,25.0
+Imo,16,7,9,56.25
+Jigawa,13,9,4,30.77
+Kaduna,8,7,1,12.5
+Kano,10,7,3,30.0
+Katsina,16,12,4,25.0
+Kebbi,14,7,7,50.0
+Kogi,20,15,5,25.0
+Kwara,11,7,4,36.36
+Lagos,9,6,3,33.33
+Nasarawa,15,10,5,33.33
+Niger,12,7,5,41.67
+Ondo,9,8,1,11.11
+Osun,20,17,3,15.0
+Oyo,17,12,5,29.41
+Plateau,13,11,2,15.38
+Rivers,10,8,2,20.0
+Sokoto,14,11,3,21.43
+Taraba,13,10,3,23.08
+Yobe,17,10,7,41.18
+Zamfara,15,11,4,26.67
