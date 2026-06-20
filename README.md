@@ -17,7 +17,7 @@ From junior data analyst (Excel, SQL, Power BI, basic Python) → full Data Scie
 | Project Folder                        | Description                                      | Status     | Key Skills                          | Link to Notebook/Insights |
 |---------------------------------------|--------------------------------------------------|------------|-------------------------------------|---------------------------|
 | [MTN-Nigeria-Customer-Churn](./MTN-Nigeria-Customer-Churn/) | Predict churn for MTN Nigeria customers (real telecom business problem) | In Progress | EDA, Feature Engineering, Imbalanced Classification, XGBoost, Business Insights | [Notebook](./MTN-Nigeria-Customer-Churn/notebooks/) |
-| ...                                   | Next project TBA                                 | Planned    | ...                                 | ...                       |
+| [Telco-Customer-Churn-Prediction](./Telco-Customer-Churn-Prediction/)                                   | Next project TBA                                 | Planned    | ...                                 | ...                       |
 | ...                                   | Next project TBA                                 | Planned    | ...                                 | ...                       |
 
 ## Tech Stack I'm Building Mastery In
