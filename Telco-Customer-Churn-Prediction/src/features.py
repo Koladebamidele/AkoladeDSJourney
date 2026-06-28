@@ -1,7 +1,6 @@
 NUMERICAL_FEATURES = [
     "tenure",
-    "MonthlyCharges",
-    "TotalCharges"
+    "MonthlyCharges"
 ]
 
 CATEGORICAL_FEATURES = [
@@ -17,8 +16,7 @@ CATEGORICAL_FEATURES = [
     "StreamingMovies",
     "Contract",
     "PaperlessBilling",
-    "PaymentMethod",
-    "SpendCategory"
+    "PaymentMethod"
 ]
 
 TARGET = "Churn"
