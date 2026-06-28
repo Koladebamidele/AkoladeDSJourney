@@ -16,8 +16,9 @@ From junior data analyst (Excel, SQL, Power BI, basic Python) → full Data Scie
 
 | Project Folder                        | Description                                      | Status     | Key Skills                          | Link to Notebook/Insights |
 |---------------------------------------|--------------------------------------------------|------------|-------------------------------------|---------------------------|
-| [MTN-Nigeria-Customer-Churn](./MTN-Nigeria-Customer-Churn/) | Predict churn for MTN Nigeria customers (real telecom business problem) | In Progress | EDA, Feature Engineering, Imbalanced Classification, XGBoost, Business Insights | [Notebook](./MTN-Nigeria-Customer-Churn/notebooks/) |
-| [Telco-Customer-Churn-Prediction](./Telco-Customer-Churn-Prediction/)                                   | Next project TBA                                 | Planned    | ...                                 | ...                       |
+| [MTN-Nigeria-Customer-Churn](./MTN-Nigeria-Customer-Churn/) | Predict churn for MTN Nigeria customers (real telecom business problem) | In Progress | EDA, Feature Engineering, Imbalanced Classification, XGBoost, Business Insights | [Notebook](./MTN-Nigeria-Customer-Churn/README.md) |
+| [Telco-Customer-Churn-Prediction](./Telco-Customer-Churn-Prediction/)                                   | Develop a machine learning classification model that predicts customers who are likely to discontinue their telecom subscription services.                                 | In Progress    | EDA, Feature Engineering, Statistical Analysis, Imbalanced Classification, Business Insights                                 | [Notebook](./Telco-Customer-Churn-Prediction/README.md)                       |
+| ...                                   | Next project TBA                                 | Planned    | ...                                 | ...                       |
 | ...                                   | Next project TBA                                 | Planned    | ...                                 | ...                       |
 
 ## Tech Stack I'm Building Mastery In
@@ -32,5 +33,5 @@ From junior data analyst (Excel, SQL, Power BI, basic Python) → full Data Scie
 - LinkedIn: [Kolade Bamidele](www.linkedin.com/in/kolade-bamidele)
 - Follow the journey: #AkoladeDSJourney #LearningInPublic #RoadToDataScientist #DataScience #MachineLearning #Kaggle #NaijaTech
 
-Last updated: February 2026  
+Last updated: March 28, 2026  
 Feel free to open issues/PRs with suggestions or questions!

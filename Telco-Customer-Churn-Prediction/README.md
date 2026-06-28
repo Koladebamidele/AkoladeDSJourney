@@ -1,5 +1,18 @@
 # 📞 Telco Customer Churn Prediction
 
+*Last updated: March 28, 2026*  
+**Status:** 🔄 In Progress — Handling Class Imbalance (SMOTE)
+
+**Phases**:
+1. ✅ Data Preparation  
+2. ✅ Exploratory Data Analysis (EDA) 
+3. ✅ Feature engineering 
+4. ✅ Hypothesis Testing
+5. ✅ Preprocessing
+5. 🔄 Class Imbalance 
+6. ⏳ Model Development 
+7. ⏳ Model Evaluation
+
 ## Project Overview
 Customer churn is a major challenge in the telecommunications industry, as losing customers directly impacts revenue and profitability. This project develops a machine learning classification model to predict which customers are likely to discontinue their telecom subscription services.
 
@@ -36,7 +49,7 @@ To develop a machine learning classification model that predicts customers who a
 
 ## 🛠️ Project Workflow
 
-### 1. Data Cleaning & Preprocessing
+### 1. Data Preparation
 
 - Handling missing values
 - Removing duplicates
@@ -45,8 +58,8 @@ To develop a machine learning classification model that predicts customers who a
 ### 2. Exploratory Data Analysis (EDA)
 
 - Churn distribution analysis
-- Customer demographics analysis
-- Contract type analysis
+- Univariate analysis
+- Bivariate analysis
 
 ### 3. Feature Engineering
 Examples include:
@@ -54,17 +67,36 @@ Examples include:
 - Tenure groups
 - Contract categories
 
-### 4. Model Development
+### 4. Hypothesis Testing
+All features are statistically tested (p-value < 0.005 and effect size > 0.10)
+
+|Features |Test |Effect Size|
+|:--------|:----|:----------|
+|Categorical |Chi-Square |Cramer's V|
+|Numerical |Mann-Whitney U |Rank-Biserial Correlation |
+
+### 5. Preprocessing
+
+- Train-Test Split
+- Encoding
+- Scaling
+- Variance Inflation Factor (VIF) Analysis
+- Save Train and Test as Parquet
+
+### 6. Handling Class Imbalance
+
+- SMOTE (On Train data only)
+
+### 7. Model Development
 The following classification models will be trained and compared:
 
 - Logistic Regression
+- Decision Tree
 - Random Forest Classifier
+- XGBoost
 
-### 5. Model Evaluation
-Performance will be evaluated using:
-
-- Accuracy
-- Precision
+### 8. Model Evaluation
+Performance will be evaluated using the evaluation metrics
 
 ---
 
@@ -127,23 +159,14 @@ Methods may include:
 
 ## 📁 Project Structure
 
-```
+```bash
 Telco-Customer-Churn-Prediction/
-│
 ├── data/
-│   ├── raw/
-│   │   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│   │   └── Telco_Customer_Churn_Field_Descriptions.docx
-│   └── processed/
-│
-├── notebooks/
-│
+│   ├── raw/                # original kaggle dataset
+│   └── processed/          # cleaned/engineered data
+├── notebooks/              # .ipynb files
 ├── reports/
-│   ├── figures/
-│   └── results/
-│
-├── src/
-│
+├── src/                    # reusable scripts (.py files)
 ├── README.md
 ├── requirements.txt
 └── .gitignore

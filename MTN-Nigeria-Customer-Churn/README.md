@@ -78,17 +78,20 @@ Every major step is committed with clear explanations.
 ```bash
 MTN-Nigeria-Customer-Churn/
 ├── data/
-│   ├── raw/                          # Original Kaggle data
-│   ├── 02_customer_level_prepared.csv
-│   └── 03_engineered_for_modeling.csv
+│   ├── artifacts/                   # Encoders, scalers         
+│   ├── processed/                   # Cleaned/Engineered data
+│   └── raw/                         # Original kaggle datasets
 ├── notebooks/
 │   ├── 01_data_preparation.ipynb
 │   ├── 02_EDA.ipynb
 │   ├── 03_feature_engineering.ipynb
 │   ├── 04_baseline_modeling.ipynb
 │   └── 05_model_improvement.ipynb
-├── models/                           # Saved models & artifacts
-├── artifacts/                        # Encoders, scalers
+├── reports/                          # Saved reports/visuals
 ├── src/                              # Reusable scripts (future)
 ├── README.md
 └── requirements.txt
+
+
+
+Last updated: March 28, 2026 
