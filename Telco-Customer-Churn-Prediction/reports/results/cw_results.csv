@@ -1,0 +1,5 @@
+Experiment,Model,Accuracy,Precision,Recall,F1,ROC_AUC
+original + class weights,Logistic Regression,0.7539,0.5301,0.8293,0.6467,0.855
+original + class weights,Decision Tree,0.7345,0.5123,0.4704,0.4905,0.6523
+original + class weights,Random Forest,0.7885,0.6523,0.4739,0.5489,0.8235
+original + class weights,XGBoost,0.7728,0.5666,0.6969,0.625,0.833
