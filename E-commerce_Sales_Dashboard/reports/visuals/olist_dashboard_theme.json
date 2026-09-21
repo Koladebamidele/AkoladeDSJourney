@@ -1,0 +1,67 @@
+{
+  "name": "Olist Navy Gold",
+
+  "dataColors": [
+    "#F5CE0A",
+    "#4DA8DA",
+    "#E8935C",
+    "#6FCF97",
+    "#C792EA",
+    "#5FD3C4"
+  ],
+
+  "good": "#6FCF97",
+  "neutral": "#9AA5B1",
+  "bad": "#E85D5D",
+
+  "maximum": "#F5CE0A",
+  "center": "#7A6420",
+  "minimum": "#0E2841",
+
+  "background": "#000812",
+  "backgroundLight": "#0B121D",
+  "backgroundNeutral": "#0E2841",
+
+  "foreground": "#E8E8E8",
+  "foregroundNeutralSecondary": "#9AA5B1",
+  "foregroundNeutralTertiary": "#4A5568",
+
+  "tableAccent": "#F5CE0A",
+
+  "textClasses": {
+    "callout": { "fontFace": "Segoe UI Semibold", "color": "#F5CE0A" },
+    "title": { "fontFace": "Segoe UI Semibold", "color": "#E8E8E8" },
+    "header": { "fontFace": "Segoe UI Semibold", "color": "#E8E8E8" },
+    "label": { "fontFace": "Segoe UI", "color": "#E8E8E8" }
+  },
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#0B121D" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#2A3441" } }, "radius": 12 }],
+        "outspacePane": [{ "backgroundColor": { "solid": { "color": "#000812" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#F5CE0A" } }, "fontSize": 24, "fontFamily": "Segoe UI Semibold" }],
+        "categoryLabels": [{ "color": { "solid": { "color": "#9AA5B1" } }, "fontSize": 12 }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#0B121D" } }, "transparency": 0 }],
+        "border": [{ "show": false }]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#0B121D" } } }],
+        "border": [{ "show": false }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#4A5568" } }, "radius": 20 }]
+      }
+    }
+  }
+}
